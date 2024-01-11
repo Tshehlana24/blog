@@ -496,7 +496,7 @@ header .sticky-nav {
 header .sticky-nav.stuck {
 	position: fixed;
 	top: 0;
-	left: 0;
+	
 	z-index: 1001;
 }
 
@@ -553,7 +553,8 @@ nav#menu #menu-nav li {
     justify-content: center;
 	align-items: center;	
 
-	margin-left: 0px;	
+	margin-left: 0px;
+	margin-right: 7px;	
 	
 }
 
@@ -575,12 +576,12 @@ nav#menu #menu-nav li a {
 	padding-left : 20px;
 }
 
-
+/*
 nav#menu #menu-nav li a:hover {
 	background-color: #d8d8d8;
 	color: #4d91ff;
 	box-shadow: 3px 3px 3px #00000040;
-}
+}*/
 
 
 /* ==================================================
