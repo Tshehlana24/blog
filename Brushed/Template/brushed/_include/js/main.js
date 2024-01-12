@@ -77,11 +77,19 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">S</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content"></div>', thumb : 'hhg', url : '#'},
-											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''}  
+											{image : '_include/img/slider-images/image1.jpg', title : '<div class="slide-content"> <button >Sign In</button> <button>Sign Up</button></div>', thumb : '', url : ''},
+
+
+											{image : '_include/img/slider-images/image2.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+
+
+											{image : '_include/img/slider-images/image3.jpg', title : '<div class="slide-content"></div>', thumb : 'hhg', url : '#'},
+
+
+											{image : '_include/img/slider-images/image4.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''}  
 									],
+
+		
 									
 		// Theme Options			   
 		progress_bar			:	0,			// Timer for each slide							
@@ -89,8 +97,9 @@ BRUSHED.slider = function(){
 		
 	});
 
-}
 
+
+}
 
 /* ==================================================
    Navigation Fix
